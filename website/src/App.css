@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+header {
+  background-color: rgba(25, 136, 148, 0.51);
+  color: white;
+  padding: 10px;
+  text-align: start;
+  font-family: monospace;
+  font-size: x-large;
+  display: flex;
+  height: 10vh;
+  gap: 60%;
+}
+main {
+  overflow-y: auto;
+  height: 86vh;
+}
+.landings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 20%;
+  gap: 100px;
+}
+.landings a {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+}
+.landings a:hover {
+  border-bottom: solid blue;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 86vh;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.319);
+  width: 40%;
+  height: 70vh;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
