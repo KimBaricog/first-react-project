@@ -1,5 +1,5 @@
 import Header from "./assets/components/header.jsx";
-import Section1 from "./assets/components/section1.jsx";
+import Sections from "./assets/components/sections.jsx";
 
 import "./App.css";
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <Section1 />
+      <Sections />
     </>
   );
 }

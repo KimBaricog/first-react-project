@@ -8,7 +8,9 @@ function section1() {
         </div>
         <div id="project" className="section2">
           <h2>My projects</h2>
-          <div className="card"></div>
+          <div className="card">
+            <div className="project-card"></div>
+          </div>
         </div>
       </main>
     </>
