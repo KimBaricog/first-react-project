@@ -7,8 +7,14 @@ function section1() {
           <div className="card">
             <div className="skill-card">
               <h2>HTML</h2>
+            </div>
+            <div className="skill-card">
               <h2>CSS</h2>
+            </div>
+            <div className="skill-card">
               <h2>JavaScript</h2>
+            </div>
+            <div className="skill-card">
               <h2>React</h2>
             </div>
           </div>
